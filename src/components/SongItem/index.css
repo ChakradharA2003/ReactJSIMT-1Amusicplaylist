@@ -1,0 +1,48 @@
+.song-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px;
+}
+.song-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.song-name-genre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.song-image {
+  height: 150px;
+  width: 250px;
+}
+.song-name {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.song-genre {
+  color: #3b82f6;
+  font-size: 25px;
+  margin-top: 0px;
+}
+.duration-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+.song-duration {
+  color: #ffffff;
+  font-size: 25px;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}

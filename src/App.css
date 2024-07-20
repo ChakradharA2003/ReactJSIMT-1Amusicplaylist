@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #152850;
+  height: 100vh;
+}
+
+.singer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10px 10px 10px 70px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.designation {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.songs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-color: #152850;
+  padding: 15px 35px 15px 35px;
+}
+
+.search-results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.songs-heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.search-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.input-field {
+  border-width: 0px;
+  outline: none;
+  width: 250px;
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+}
+.songs-playlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0px;
+  width: 100%;
+}
+.songs-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #152850;
+}
+
+.songs-not-found-heading {
+  color: #ffffff;
+  font-size: 40px;
+}
